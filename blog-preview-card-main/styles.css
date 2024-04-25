@@ -1,0 +1,47 @@
+* {
+  margin: 0;
+  padding: 0;
+  box-sizing: border-box;
+}
+
+body {
+  background-color: #f4d04e;
+  font-family: sans-serif;
+}
+
+.container {
+  min-height: 100vh;
+  display: flex;
+  align-items: center;
+  justify-content: center;
+}
+
+.blog-preview-card {
+  display: flex;
+  flex-direction: column;
+  background-color: white;
+  border-radius: 1em;
+  align-items: center;
+  gap: 1.5em;
+  padding: 2em;
+  border: 1px black solid;
+}
+
+.preview-image {
+  max-width: 20em;
+  height: auto;
+  border-radius: 1em;
+}
+
+.learning-label {
+  align-self: flex-start;
+  background-color: #f4d04e;
+  padding: 0.5em 1em;
+  border-radius: 0.3em;
+  font-weight: 800;
+}
+
+.published {
+  align-self: flex-start;
+  font-weight: bold;
+}
