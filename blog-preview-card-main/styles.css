@@ -21,10 +21,12 @@ body {
   flex-direction: column;
   background-color: white;
   border-radius: 1em;
-  align-items: center;
+  align-items: flex-start;
   gap: 1.5em;
   padding: 2em;
   border: 1px black solid;
+  max-width: 24em;
+  box-shadow: 10px 10px rgb(0, 0, 0);
 }
 
 .preview-image {
@@ -34,7 +36,6 @@ body {
 }
 
 .learning-label {
-  align-self: flex-start;
   background-color: #f4d04e;
   padding: 0.5em 1em;
   border-radius: 0.3em;
@@ -42,6 +43,33 @@ body {
 }
 
 .published {
-  align-self: flex-start;
   font-weight: bold;
+}
+
+.title {
+  font-size: 1.5em;
+  font-weight: bold;
+}
+
+.summary {
+  color: gray;
+  line-height: 1.5em;
+}
+
+.author {
+  display: flex;
+  align-items: center;
+  gap: 1em;
+}
+
+.author-pic {
+  display: inline;
+  width: 2.5em;
+  height: 2.5em;
+  border-radius: 50%;
+}
+
+.author-name {
+  font-size: 1em;
+  font-weight: 800;
 }
