@@ -1,0 +1,75 @@
+* {
+  margin: 0;
+  padding: 0;
+  box-sizing: border-box;
+}
+
+body {
+  background-color: #f4d04e;
+  font-family: sans-serif;
+}
+
+.container {
+  min-height: 100vh;
+  display: flex;
+  align-items: center;
+  justify-content: center;
+}
+
+.blog-preview-card {
+  display: flex;
+  flex-direction: column;
+  background-color: white;
+  border-radius: 1em;
+  align-items: flex-start;
+  gap: 1.5em;
+  padding: 2em;
+  border: 1px black solid;
+  max-width: 24em;
+  box-shadow: 10px 10px rgb(0, 0, 0);
+}
+
+.preview-image {
+  max-width: 20em;
+  height: auto;
+  border-radius: 1em;
+}
+
+.learning-label {
+  background-color: #f4d04e;
+  padding: 0.5em 1em;
+  border-radius: 0.3em;
+  font-weight: 800;
+}
+
+.published {
+  font-weight: bold;
+}
+
+.title {
+  font-size: 1.5em;
+  font-weight: bold;
+}
+
+.summary {
+  color: gray;
+  line-height: 1.5em;
+}
+
+.author {
+  display: flex;
+  align-items: center;
+  gap: 1em;
+}
+
+.author-pic {
+  display: inline;
+  width: 2.5em;
+  height: 2.5em;
+  border-radius: 50%;
+}
+
+.author-name {
+  font-size: 1em;
+  font-weight: 800;
+}
